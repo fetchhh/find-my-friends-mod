@@ -21,6 +21,7 @@ public class ModMain {
         EntityInit.ENTITY.register(modEventBus);
         NetworkInit.registerPackets();
 
+        ClientFindConfig.init();
         ServerFindConfig.init();
     }
 }

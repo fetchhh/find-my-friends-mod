@@ -24,11 +24,11 @@ public class ServerFindConfig {
                 .push("server");
 
         hideSneakingPlayers = serverBuilder
-                .comment("when true, the name tags will not show for players holding shift (like vanilla)")
+                .comment("When true, the name tags will not show for players holding shift (like vanilla)")
                 .define("hideSneakingPlayers", true);
 
         showDistance = serverBuilder
-                .comment("when true, the distance to a player will be shown above their name (when they're beyond vanilla's normal range)")
+                .comment("When true, the distance to a player will be shown above their name (when they're beyond vanilla's normal range)")
                 .define("showDistance", true);
 
         maxDistance = serverBuilder
